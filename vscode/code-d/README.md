@@ -21,6 +21,14 @@ It does not support single file. You need to create a dub project. However, ther
 	+ Windows: `%LDC_PATH%\import`
 4. Set `d.dmdPath` to `ldmd2`.
 
+## dfmt and D-Scanner
+
+1. Install [dfmt](https://github.com/dlang-community/dfmt).
+2. Install [D-Scanner](https://github.com/dlang-community/D-Scanner).
+3. Set enviroment variables. (PATH)
+
+However, these are included in workspace-d.
+
 # Troubleshooting
 
 + If the extension doesn't work, simply remove it, delete files and reinstall.
