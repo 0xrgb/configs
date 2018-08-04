@@ -1,0 +1,63 @@
+// Please visit the URL below for more information:
+//   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css
+
+// Need to be refactored a lot
+.markdown-preview.markdown-preview {
+	background-color: white;
+
+	// Utility
+	.right { text-align: right; }
+	.center { text-align: center; }
+	.pagebreak {
+		display: block;
+		height: 0;
+		width: 0;
+		page-break-before: always;
+	}
+	.mono { font-family: mononoki, 'Noto Sans Mono CJK KR', monospace; }
+	.noliga { font-variant-ligatures: none; }
+
+	// Normal text
+	p, li, td {
+		font-family: 'Noto Sans CJK KR', sans-serif;
+		font-size: 1rem;
+		font-weight: 300;
+		li {
+			font-size: 0.8em;
+		}
+	}
+
+	// <h1> ... <h6>
+	h1, h2, h3, h4, h5, h6 {
+		font-family: '나눔스퀘어라운드', sans-serif;
+		font-weight: 900;
+	}
+	h1 {
+		margin-bottom: 10px;
+		padding-bottom: 0px;
+	}
+	h2, h3 {
+		margin-bottom: 10px;
+		padding-bottom: 2px;
+		border-bottom: 2px solid #EEEEEE;
+	}
+
+	blockquote > p, li {
+		font-size: 1rem;
+	}
+
+	pre {
+		page-break-inside: auto;
+		word-break: break-all !important; // Automatic line break
+		font-size: 0.8rem !important;
+		font-family: mononoki, 'Noto Sans Mono CJK KR', monospace;
+		font-variant-ligatures: normal;
+	}
+	code {
+		page-break-inside: auto;
+		word-break: break-all !important; // Automatic line break
+		font-size: 1em !important;
+		font-family: mononoki, 'Noto Sans Mono CJK KR', monospace;
+		font-variant-ligatures: none;
+	}
+}

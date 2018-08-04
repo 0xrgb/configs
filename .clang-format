@@ -1,0 +1,19 @@
+# C/C++ style
+BasedOnStyle: LLVM
+
+IndentWidth: 4
+UseTab: Never
+BreakBeforeBraces: Stroustrup
+ColumnLimit: 100
+
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+
+AllowShortBlocksOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: true
+
+IndentCaseLabels: false

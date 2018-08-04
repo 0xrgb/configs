@@ -1,0 +1,47 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+indent_size = tab
+tab_width = 8
+
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.{c,cpp,cc,cxx,h,hpp}]
+indent_style = space
+indent_size = 4
+
+[*.d]
+indent_style = space
+indent_size = 4
+
+[*.java]
+indent_style = space
+indent_size = 4
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.go]
+indent_style = tab
+tab_width = 4
+
+[*.rs]
+indent_style = space
+indent_size = 4
+
+[*.{md,markdown}]
+indent_style = tab
+tab_width = 4
+
+[*.{html,htm,css,less}]
+indent_style = tab
+tab_width = 4
+
+[*.{ini,toml,json,yml,yaml}]
+indent_style = space
+indent_size = 2

@@ -1,0 +1,33 @@
+{
+  "workbench.startupEditor": "welcomePage",
+  "files.eol": "\n",
+  "editor.rulers": [
+    80, 100,
+  ],
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.exe": true,
+    "**/*.pdf": true,
+    "**/a.out": true,
+  },
+  // Editor font settings
+  "editor.fontSize": 12,
+  "editor.fontFamily": "mononoki, 'D2Coding ligature', 'Noto Sans mono CJK KR', monospace",
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  // Terminal font settings
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontFamily": "mononoki, 'D2Coding', 'Noto Sans mono CJK KR', monospace",
+  "terminal.integrated.lineHeight": 1.2,
+  // Your favorite themes
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  // laptop: -1
+  "window.zoomLevel": 0,
+}
