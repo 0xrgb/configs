@@ -29,6 +29,8 @@ Also:
 + Unison: https://lifthrasiir.github.io/unison/live.html
 + Noto Sans CJK Mono: https://www.google.com/get/noto/
 	+ Without CJK, use Noto Mono instead.
++ DungGeunMo + Fixedsys Excelsior: http://cactus.tistory.com/193
++ NeoDunggeunmo: http://dalgona.hontou.moe/neodgm/
 
 ## Latin only
 
