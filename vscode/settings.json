@@ -13,8 +13,9 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/*.exe": true,
-    "**/*.pdf": true,
+	"**/*.jar": true,
     "**/a.out": true,
+	"**/*.pdf": true,
   },
   // Editor font settings
   "editor.fontSize": 12,
@@ -30,4 +31,6 @@
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
   // laptop: -1
   "window.zoomLevel": 0,
+  // Etc (plugin settings ...)
+  "javascript.validate.enable": false,
 }

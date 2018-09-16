@@ -7,6 +7,7 @@
 + Rust (rls): `rust-lang.rust`
 + Go: `ms-vscode.go`
 + D Programming Language (code-d): `webfreak.code-d`
++ StandardJS - Javascript Standard Style: `chenxsan.vscode-standardjs`
 
 # Etc
 

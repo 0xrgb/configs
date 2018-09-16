@@ -46,6 +46,10 @@ tab_width = 4
 indent_style = tab
 tab_width = 4
 
+[*.js]
+indent_style = space
+indent_size = 2
+
 [*.{ini,toml,json,yml,yaml}]
 indent_style = space
 indent_size = 2
