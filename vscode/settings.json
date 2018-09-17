@@ -1,36 +1,24 @@
 {
-  "workbench.startupEditor": "welcomePage",
   "files.eol": "\n",
-  "editor.rulers": [
-    80, 100,
-  ],
-  "editor.renderWhitespace": "all",
+  // Editor
+  "editor.rulers": [80, 100],
   "editor.minimap.enabled": false,
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/*.exe": true,
-	"**/*.jar": true,
-    "**/a.out": true,
-	"**/*.pdf": true,
-  },
-  // Editor font settings
-  "editor.fontSize": 12,
-  "editor.fontFamily": "mononoki, 'D2Coding ligature', 'Noto Sans mono CJK KR', monospace",
-  "editor.fontLigatures": true,
   "editor.wordWrap": "on",
-  // Terminal font settings
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.fontFamily": "mononoki, D2Coding, monospace",
+  // Terminal
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.fontFamily": "mononoki, 'D2Coding', 'Noto Sans mono CJK KR', monospace",
-  "terminal.integrated.lineHeight": 1.2,
-  // Your favorite themes
+  "terminal.integrated.fontFamily": "D2Coding, monospace",
+  // Etc
   "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
-  // laptop: -1
+  "files.exclude": {
+    "**/.git": true,
+    "**/*.exe": true,
+    "**/*.jar": true,
+    "**/a.out": true,
+  },
   "window.zoomLevel": 0,
-  // Etc (plugin settings ...)
-  "javascript.validate.enable": false,
+  // Custom plugin settings
 }
