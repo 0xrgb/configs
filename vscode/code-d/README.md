@@ -19,7 +19,9 @@ It does not support single file. You need to create a dub project. However, ther
 2. Install code-d: `ext install webfreak.code-d`
 3. Set `d.stdlibPath` to apporiate path.
 	+ Windows: `%LDC_PATH%\import`
-4. Set `d.dmdPath` to `ldmd2`.
+4. Set `d.dmdPath` to `ldmd2` (or other path you want to use).
+
+You don't need to touch `d.servedPath` or other settings.
 
 ## dfmt and D-Scanner
 
