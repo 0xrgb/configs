@@ -4,6 +4,7 @@
 
 + C/C++: `ms-vscode.cpptools`
 + Python: `ms-python.python`
++ Java: `vscjava.vscode-java-pack`
 + Rust (rls): `rust-lang.rust`
 + Go: `ms-vscode.go`
 + D Programming Language (code-d): `webfreak.code-d`
